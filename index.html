@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./CSS/styles.css">
+<title>ORDER</title>
+</head>
+<body>
+
+	<div id="page">
+		<div id="sidebar"><img id="sidepic" src="https://iili.io/JZEfDb9.jpg"></div>
+
+	
+	<div id="main">
+		<div id="banner"><img id="bannerpic" src="https://iili.io/JZEaXpe.gif"></div>
+	
+		<div id="navigation"><img id="navpic" src="https://iili.io/JZElQdN.md.gif"></div>
+	
+		<form name="orders">
+			<table id="table">
+				<caption>Product Summery</caption>
+				<tr id="header">
+					<td>Description</td>
+					<td>Size</td>
+					<td>Colour</td>
+					<td>Price</td>
+					<td>Quantity</td>
+					<td>Total</td>
+				</tr>
+			<tr>
+					<td><a href="female.html">Female Ski Jackets</a></td>
+					<td>
+						<select>
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+					</select>
+					</td>
+					<td>
+						<select>
+							<option value="Red">Red</option>
+							<option value="Pink">Pink</option>
+							<option value="Black">Black</option>
+						</select>
+					</td>
+					<td>150.95</td>
+					<td><input type="number" id="quantFemale" value="2"></td>
+					<td id="totalFemale" type="number"></td>
+				</tr>
+            <tr>
+					<td><a href="male.html">Male Ski Jacket</a></td>
+					<td>
+						<select>
+							<option value="small">Small</option>
+							<option value="medium">Medium</option>
+							<option value="large">Large</option>
+						</select>
+					</td>
+					<td>
+						<select>
+							<option value="Red">Red</option>
+							<option value="Blue">Blue</option>
+							<option value="white">White</option>
+						</select>
+					</td>
+					<td>180.95</td>
+					<td><input type="number" id="quantMale" value="4"></td>
+					<td id="totalMale" type="number"></td>
+				</tr>
+				<tr>
+					<td colspan="4">Click to confirm and process your order</span></td>
+				    <td><button id="calculate">Total Price</button></td>
+					<td id="total" type="number"></td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+	<div id="footer"><hr></hr>
+	<footer class="copyright">© 2020 Swegga Fashion - Zubayr Abdullatief</footer>
+	</div>
+</div>
+
+<script src="./SCRIPT/script.js"></script>
+</body>
+</html>
